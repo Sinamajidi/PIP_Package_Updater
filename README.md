@@ -2,7 +2,7 @@
 
 
 ## :heavy_check_mark: PIP Package Updater!
-Deascription: With This Project You Can Easily Update all of your pip packages or custom package(s).
+Description: With This Project You Can Easily Update all of your pip packages or custom package(s).
 
 Requirements:
 
