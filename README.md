@@ -6,6 +6,6 @@ Description: With This Project, You Can Easily Update all of your pip packages o
 
 Requirements:
 
- - Python3 +
+ - Python3.0 +
  - re
  - subprocess
