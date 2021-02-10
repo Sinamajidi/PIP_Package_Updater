@@ -10,7 +10,7 @@ pkg_list = getoutput('python -m pip freeze').split('\n')
 new_pkg = []
 for i in pkg_list:
     findall(r"^(.*)==.*", str(i))
-    new = findall(r"^(.*)==.*", str(i))[0]
+    new = findall(r"^(.*)\=\=.*", str(i))[0]
     new_pkg.append(str(new))
 
 selected_pkg = []
