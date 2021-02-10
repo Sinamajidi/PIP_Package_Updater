@@ -9,7 +9,7 @@ pkgs = str(input('''Enter the Package(s) name that you want to Upgrade (separate
 pkg_list = getoutput('python -m pip freeze').split('\n')
 new_pkg = []
 for i in pkg_list:
-    findall(r"^(.*)==.*", str(i))
+    findall(r"^(.*)\=\=.*", str(i))
     new = findall(r"^(.*)\=\=.*", str(i))[0]
     new_pkg.append(str(new))
 
